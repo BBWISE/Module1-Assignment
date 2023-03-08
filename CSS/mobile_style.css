@@ -1,1 +1,14 @@
-﻿
+﻿/*
+    Below are the syntax for the
+    css code which helps to control
+    the mobile view of the webpage.
+*/
+@media screen and (max-width:700){
+    #logheader {
+        background-image: linear-gradient(to right, red, yellow, blue);
+        display: none;
+    }
+    .form{
+        background-color: red;
+    }
+}
