@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Page title</title>
-    <link rel="stylesheet" href="./CSS/index.css">
+    <meta charset="UTF-8" name="viewpoin" content="width=device-width, initial-scale= 1.0">
+    <title>Backend B Group TWO</title>
+    <link rel="stylesheet" href="./CSS/desktop_style.css">
+    <link rel="stylesheet" href="./CSS/mobile_style.css">
 </head>
 <body>
     <!--
@@ -12,7 +13,7 @@
     <!-- The heading section -->
     
     <header id="genlog">
-        <center ="genhead">
+        <center id="genhead">
             <h1 id="logheader">
                 <big>Login</big>
             </h1>
@@ -23,31 +24,38 @@
     <center id="genform">
         
     <form id="gform">
+<!--
+Each label has a class
+The classes are genlabel1 and genlabel2
+-->
         
-        <label for="username">
+        <label for="username" class="genlabel1">
             Username
         </label>
 <br> 
 
-<!-- All the input have class which is tag form -->
+<!-- 
+All the input have class which is tag form
+The classes are form1, form2 and form3
+-->
 
-        <input type="text" placeholder="Type your username" class="form">
+        <input type="text" placeholder="Type your username" class="form1">
 
 <br><br>
         
-        <label for="password">
+        <label for="password" class="genlabel2">
             Password
         </label>
 <br>        
-        <input type="password" placeholder="Type your password" class="form">
+        <input type="password" placeholder="Type your password" class="form2">
         
 <br>
 
-        <p>Forget <a href="forget.html">password?</a></p>
+        <p id="forget">Forget password?</p>
    
 <br><br>
         
-        <input type="submit" value="Login" class="form">
+<input type="submit" value="Login" class="form3">
         
 <br><br>
 
@@ -56,7 +64,7 @@ This section is for the alternative login method
 it makes use of the anchor tag
 -->
 
-        <p>Or Sign-in Using</p>
+        <p id="unique">Or Sign-in Using</p>
         
        <a href="https://facebook.com/login"><img src="./img/face.png" alt="facebook"></a>
         <a href="https://twitter.com/login"><img src="./img/tweet.png" alt="twitter"></a>
@@ -67,7 +75,7 @@ it makes use of the anchor tag
     </form>
     
     <footer id="genfoot">
-        <p>Create your Account<a href="reg.html"> here!</a></p>
+        <p id="create">Create your Accounthere!</p>
     </footer>
     
     </center>
@@ -90,31 +98,35 @@ it makes use of the anchor tag
 <center id="mform">
     
     <form id="memform">
-
-        <label for="email">
+<!--
+Each label has a class
+The classes are mlabel1 and mlabel2
+-->
+        <label for="email" class="mlabel1">
             Email
         </label>
 <br>
 
-<!-- All input has the same class as mform -->
+<!--
+All the input have class which is tag form            The classes are mform1, mform2 and mform3             -->
 
-        <input type="text" placeholder="Type your email" class="mform">
+        <input type="text" placeholder="Type your email" class="mform1">
 
 <br><br>
 
-        <label for="password">
+        <label for="password" class="mlabel2">
             Password
         </label>
 <br>
-        <input type="password" placeholder="Type your password" class="mform">
+        <input type="password" placeholder="Type your password" class="mform2">
 
 <br>
 
-       <p>Forget <a href="forget.html">username/password?</a></p>
+       <p id="mforget">Forget username/password?</p>
 
 <br><br>
 
-        <input type="submit" value="Login" class="mform">
+        <input type="submit" value="Login" class="mform3">
 
 <br><br>
     
@@ -122,7 +134,7 @@ it makes use of the anchor tag
  
  <!-- this is for the footer and it has mfoot as id -->   
     <footer id="mfoot">
-        <p>Create your Account<a href="reg.html"> here!</a></p>
+        <p id="mcreate">Create your Account here!</p>
     </footer>
     
     
