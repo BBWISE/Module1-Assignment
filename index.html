@@ -13,7 +13,7 @@
     <!-- The heading section -->
     
     <header id="genlog">
-        <center ="genhead">
+        <center id="genhead">
             <h1 id="logheader">
                 <big>Login</big>
             </h1>
@@ -25,30 +25,30 @@
         
     <form id="gform">
         
-        <label for="username">
+        <label for="username" class="genlabel1">
             Username
         </label>
 <br> 
 
 <!-- All the input have class which is tag form -->
 
-        <input type="text" placeholder="Type your username" class="form">
+        <input type="text" placeholder="Type your username" class="form1">
 
 <br><br>
         
-        <label for="password">
+        <label for="password" class="genlabel2">
             Password
         </label>
 <br>        
-        <input type="password" placeholder="Type your password" class="form">
+        <input type="password" placeholder="Type your password" class="form2">
         
 <br>
 
-        <p>Forget <a href="forget.html">password?</a></p>
+        <p id="forget">Forget <a href="forget.html">password?</a></p>
    
 <br><br>
         
-        <input type="submit" value="Login" class="form">
+<input type="submit" value="Login" class="form3">
         
 <br><br>
 
@@ -57,7 +57,7 @@ This section is for the alternative login method
 it makes use of the anchor tag
 -->
 
-        <p>Or Sign-in Using</p>
+        <p id="unique">Or Sign-in Using</p>
         
        <a href="https://facebook.com/login"><img src="./img/face.png" alt="facebook"></a>
         <a href="https://twitter.com/login"><img src="./img/tweet.png" alt="twitter"></a>
@@ -68,7 +68,7 @@ it makes use of the anchor tag
     </form>
     
     <footer id="genfoot">
-        <p>Create your Account<a href="reg.html"> here!</a></p>
+        <p id="create">Create your Account<a href="reg.html"> here!</a></p>
     </footer>
     
     </center>
@@ -92,30 +92,30 @@ it makes use of the anchor tag
     
     <form id="memform">
 
-        <label for="email">
+        <label for="email" class="mlabel1">
             Email
         </label>
 <br>
 
 <!-- All input has the same class as mform -->
 
-        <input type="text" placeholder="Type your email" class="mform">
+        <input type="text" placeholder="Type your email" class="mform1">
 
 <br><br>
 
-        <label for="password">
+        <label for="password" class="mlabel2">
             Password
         </label>
 <br>
-        <input type="password" placeholder="Type your password" class="mform">
+        <input type="password" placeholder="Type your password" class="mform2">
 
 <br>
 
-       <p>Forget <a href="forget.html">username/password?</a></p>
+       <p id="mforget">Forget <a href="forget.html">username/password?</a></p>
 
 <br><br>
 
-        <input type="submit" value="Login" class="mform">
+        <input type="submit" value="Login" class="mform3">
 
 <br><br>
     
@@ -123,7 +123,7 @@ it makes use of the anchor tag
  
  <!-- this is for the footer and it has mfoot as id -->   
     <footer id="mfoot">
-        <p>Create your Account<a href="reg.html"> here!</a></p>
+        <p id="mcreate">Create your Account<a href="reg.html"> here!</a></p>
     </footer>
     
     
