@@ -3,12 +3,31 @@
     css code which helps to control
     the mobile view of the webpage.
 */
-@media screen and (max-width:700){
+@media screen and (max-width: 700px){
+    /*
+    body {
+        background-image: linear-gradient(to top right, rgba(1, 5, 250, 0.5), purple);
+        
+    }*/
     #logheader {
+        
         background-image: linear-gradient(to right, red, yellow, blue);
-        display: none;
     }
-    .form{
-        background-color: red;
+    .genlabel1 {
+        text-align: left;
+    }
+    .genlabel2 {
+        text-align: left;
+    }
+    .form1{
+        border-style:solid;
+        border-width:0px 0px 2px 0px;
+    }
+    .form2 {
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+    }
+    #forget{
+        text-align: right;
     }
 }
