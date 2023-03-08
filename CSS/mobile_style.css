@@ -4,30 +4,71 @@
     the mobile view of the webpage.
 */
 @media screen and (max-width: 700px){
-    /*
+    
     body {
+        /*
+            This code creates a gradient color of the
+            background of the webpage.
+        */
         background-image: linear-gradient(to top right, rgba(1, 5, 250, 0.5), purple);
-        
-    }*/
-    #logheader {
-        
-        background-image: linear-gradient(to right, red, yellow, blue);
     }
-    .genlabel1 {
-        text-align: left;
+    .genlabel1, .genlabel2{
+        text-align: left; /* Aligning the texts of the respective labels to left.*/
     }
-    .genlabel2 {
-        text-align: left;
+    #genform {
+        /* Below syntaxs helps in padding the genform component. */
+        padding-top: 20px;
+        padding-bottom: 100px;
     }
-    .form1{
-        border-style:solid;
+    .form1, .form2{
+        border-style:solid; /* Creates a solid border style for the two input text boxes. */
         border-width:0px 0px 2px 0px;
     }
-    .form2 {
-        border-style: solid;
-        border-width: 0px 0px 2px 0px;
-    }
     #forget{
+        /* The syntax below helps in positioning the text (Forget password?) to the right. */
         text-align: right;
+        margin-right:10%;
     }
+    #login {
+        /*Setting the properties of the Mobile view page */
+        margin-right: 7%;
+        margin-left: 7%;
+        background-color: white;
+        position: center;
+        padding-top: 7%;
+        padding-bottom: 100px;
+
+    }
+    #genfoot{
+        padding-top: 15%;
+    }
+    .form3 {
+        /*Setting the properties of the Login button */
+        background-image: linear-gradient(to right, rgba(1, 5, 250, 0.5) 40%, purple 60%);
+        color: white;
+        font-size: 90%;
+        border-radius: 30px;
+        border-style: none;
+    }
+    #member{
+        display: none; /* Turning off the visibility of the 'member' div (for Desktop view).*/
+    }
+    
+}
+
+/*
+    The codes below is general to the
+    webpage (irrespective of the viewing device)
+*/
+img {
+    /*Setting all image properties. */
+    max-width: 19px;
+    max-height: 19px;
+    border-radius: 100%;
+}
+input{
+    /*Setting all input properties. */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    min-width: 80%;
 }
