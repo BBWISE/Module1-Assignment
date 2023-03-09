@@ -1,0 +1,10 @@
+﻿/*
+    Below are the syntax for the
+    css code which helps to control
+    the desktop view of the webpage.
+*/
+@media screen and (min-width: 701px) {
+    #login {LJLSJS;
+        display: none; /* Turning off the visibility of the 'login' div (for Mobile view).*/
+    }
+}
